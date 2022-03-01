@@ -80,40 +80,49 @@ img{
 .desktop {
     height: 125px;
     width: 125px;
+    margin: 0;
 }
 .camera {
     height: 125px;
     width: 125px;
+    margin:0;
 }
 .laptop {
     height: 125px;
     width: 125px;
+    margin:0;
 }
 .phone {
     height: 125px;
     width: 125px;
+    margin: 0;
 }
 
 .information .conatiner {
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: solid black 2px;
     height: 400px;
-
+    width: 1100px;
+    margin: 0 auto;
+}
+.info-header {
+    padding: 30px 0;
+    font-size: 24px;
+    font-weight: bold;
 }
 .photo-text {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
     height: 400px;
-    width: 1100px;
-    border: solid black 2px;
 }
 .image-text{
     display: flex;
     flex-direction: column;
-    width: 150px;
+    max-width: 200px;
     align-items: center;
-    justify-content: center;
+}
+.information p {
+    text-align: center;
 }
